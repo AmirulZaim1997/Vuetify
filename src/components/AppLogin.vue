@@ -3,7 +3,8 @@
       <v-alert type="warning" :value="alert">
       Please Fill Email and Password
     </v-alert>
-    <v-form v-model="valid" @submit.prevent="submit">
+    <v-img src="assets/anak2u.png"></v-img>
+    <v-form v-model="valid" @submit.prevent="submit"> 
      
       <v-text-field
         label="Email"
